@@ -1,0 +1,49 @@
+*{
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+html {
+  font-size: 62.5%;
+}
+/* Reset css*/
+
+:root{
+    --main-red:#8F0101;
+    --secundary-red:#B81515;
+
+    --main-dark:#000000;
+    --secundary-dark:#222222;
+
+     --primary-gray:#8C8C8C;
+     --secundary-gray:#D9D9D9;
+
+     --secunday-white:#F5F5F5;
+     --primary-white:#FFFFFF;
+
+     /* Colors */
+
+     --text-sm: 1rem;
+     --text-md: 2.0rem;
+     --text-xl: 2.4rem;
+     --text-2xl: 3.2rem;
+     --subtitle: 1.4rem;
+
+     --heading-sm:2.8rem;
+     --heading-md:3.8rem;
+     --heading-xl:4.0rem;
+     --heading-2xl:4.8rem;
+    
+     /* Text */
+
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;
+
+    /* Weight */
+
+}
