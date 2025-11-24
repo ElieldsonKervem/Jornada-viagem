@@ -1,9 +1,9 @@
-*{
-padding:0;
-margin:0;
-vertical-align:baseline;
-list-style:none;
-border:0
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
 }
 
 html {
@@ -11,39 +11,41 @@ html {
 }
 /* Reset css*/
 
-:root{
-    --main-red:#8F0101;
-    --secundary-red:#B81515;
+:root {
+  --main-red: #8f0101;
+  --secundary-red: #b81515;
 
-    --main-dark:#000000;
-    --secundary-dark:#222222;
+  --main-dark: #000000;
+  --secundary-dark: #222222;
 
-     --primary-gray:#8C8C8C;
-     --secundary-gray:#D9D9D9;
+  --primary-gray: #8c8c8c;
+  --secundary-gray: #d9d9d9;
 
-     --secunday-white:#F5F5F5;
-     --primary-white:#FFFFFF;
+  --secunday-white: #f5f5f5;
+  --primary-white: #ffffff;
 
-     /* Colors */
+  /* Colors */
 
-     --text-sm: 1rem;
-     --text-md: 2.0rem;
-     --text-xl: 2.4rem;
-     --text-2xl: 3.2rem;
-     --subtitle: 1.4rem;
+  --text-sm: 1rem;
+  --text-md: 2rem;
+  --text-xl: 2.4rem;
+  --text-2xl: 3.2rem;
+  --subtitle: 1.4rem;
 
-     --heading-sm:2.8rem;
-     --heading-md:3.8rem;
-     --heading-xl:4.0rem;
-     --heading-2xl:4.8rem;
-    
-     /* Text */
+  --heading-sm: 2.8rem;
+  --heading-md: 3.8rem;
+  --heading-xl: 4rem;
+  --heading-2xl: 4.8rem;
 
+  /* Text */
 
-    --weight-regular: 400;
-    --weight-medium: 500;
-    --weight-bold: 700;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
 
-    /* Weight */
+  /* Weight */
+}
 
+body {
+  font-family: "Open Sans", sans-serif;
 }
